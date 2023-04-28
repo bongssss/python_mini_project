@@ -18,5 +18,9 @@ FORMULAE:
 
 
  b. 
-  PREFECT SQUARES:  (flawed method)
-  if a number n is part of a fibonacci series, then 5(n)^2 + 4 or 5(n)^2 - 4 is always a perfect square
+  PREFECT SQUARES:  (prefered method)
+  if a number n is part of a fibonacci series, then 5(n)^2 + 4 or 5(n)^2 - 4 is always a perfect square:
+  this implies that we
+  i. create a function perfectSquare(x) that checks if a number x is a perfect square and only returns True if so
+  ii. call the first function in a second function fibNo() that checks whether the condition that either 5n^2 +4 or 5n^2 -4 or both will be perfect suqares given the number n is true
+  iii. define a third function isFib(n) that checks if the number entered by the user meets the condition of the function fibNo and returns f'{N} is a fibonacci number', if True and opposite if not. 
