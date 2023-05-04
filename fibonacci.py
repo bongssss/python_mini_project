@@ -1,7 +1,7 @@
 import math
 
 
-import math
+
 
 def perfectSquare(x):
     square = int(math.sqrt(x))
