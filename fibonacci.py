@@ -4,7 +4,7 @@ import math
 
 
 def perfectSquare(x):
-    square = int(math.sqrt(x))
+    square = int( x ** 0.5 )
     return int(square * square) == x
 
 def fibNo(n,):
